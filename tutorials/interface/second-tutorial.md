@@ -8,25 +8,25 @@ Move through the maze with the robot!
 
 Use the ``||robot:begin screen ||`` code to start your robot and place the coins
 
-```python
-robot.begin_screen()
+```blocks
+robot.beginScreen()
 ```
 
 ## Step Two
 
 Use the ``||robot:move forward||`` block to move the robot.
 
-```python
-robot.move_forward()
+```blocks
+robot.moveForward()
 ```
 
 ## Step Three
 
 Turn the robot right with ``||robot:turn right||`` or turn the robot left with ``||robot:turn left||``.
 
-```python
-robot.turn_right()
-robot.turn_left()
+```blocks
+robot.turnRight()
+robot.turnLeft()
 ```
 
 ```customts
