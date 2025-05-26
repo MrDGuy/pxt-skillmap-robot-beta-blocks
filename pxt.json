@@ -1,0 +1,38 @@
+{
+    "name": "pxt-skillmap-robot-test-2",
+    "version": "0.0.1",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
+        "Robot Extension": "github:MrDGuy/robot-extension#64fbb69d15070ccc00f00226305a636bbd4b9ec2"
+    },
+    "files": [
+        "README.md",
+        "skillmap.md",
+        "tutorials/interface/activity1.md",
+        "tutorials/interface/first-tutorial.md",
+        "tutorials/interface/second-tutorial.md",
+        "tutorials/interface/third-tutorial.md",
+        "tutorials/interface/fourth-tutorial.md",
+        "tutorials/interface/fifth-tutorial.md",
+        "tutorials/platformer/tilemap-tutorial-1.md",
+        "tutorials/platformer/tilemap-tutorial-2.md",
+        "tutorials/platformer/tilemap-tutorial-3.md",
+        "tutorials/platformer/tilemap-tutorial-4.md",
+        "tutorials/space/variable-tilemaps-tutorial-1.md",
+        "tutorials/space/variable-tilemaps-tutorial-2.md",
+        "tutorials/space/variable-tilemaps-tutorial-3.md"
+    ],
+    "testFiles": [
+    ],
+    "targetVersions": {
+        "target": "1.0.16",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
