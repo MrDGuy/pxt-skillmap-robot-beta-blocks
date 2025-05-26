@@ -23,7 +23,7 @@
 * tags: introduction, tools
 * next: basic-activity1
 * position: 0 0
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-beta-blocks/blob/main/tutorials/interface/activity1
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-beta-blocks/tutorials/interface/activity1
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta-blocks/main/docs/static/robot1.png
 
 
