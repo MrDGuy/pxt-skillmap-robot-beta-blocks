@@ -3,7 +3,7 @@
 ## Introduction @unplugged
 
 You will practice moving and turning the robot to place coins at a specific location to write your first initial in coins. (This is a D because that is my first initial)
-![Place the coins here](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/robot-draw-initial.gif "Using the place_coin() function" )
+![Place the coins here](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/robot-draw-initial.gif "Using the placeCoin() function" )
 
 
 
@@ -11,32 +11,32 @@ You will practice moving and turning the robot to place coins at a specific loca
 
 Use the ``||robot:begin screen ||`` code to start your robot on the start tile and set up the tilemap.
 
-```python
-robot.begin_screen()
+```blocks
+robot.beginScreen()
 ```
 
 ## Step Two
 
 Use the ``||robot:move forward||`` code to move the robot. Change the direction the robot is facing with the ``||robot:turn right||`` and ``||robot:turn left||`` code.
 
-```python
-robot.move_forward()
-robot.turn_right()
-robot.turn_left()
+```blocks
+robot.moveForward()
+robot.turnRight()
+robot.turnLeft()
 ```
 
 ## Step Three
 
 Move the robot to the location you would like to put a coin.  Next use the ``||robot:place coin ||`` code have a coin appear at the current location of the robot.
 
-```python
-robot.place_coin()
+```blocks
+robot.placeCoin()
 ```
 
 ## Step Four
 
 Write your first initial on the tilemap! Reminder: you see a "D" because that it my first initial.
-![Place the coins here](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/robot-draw-initial.gif "Using the place_coin() function" )
+![Place the coins here](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/robot-draw-initial.gif "Using the placeCoin() function" )
 
 ```assetjson
 {
