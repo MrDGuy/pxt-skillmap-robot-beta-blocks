@@ -55,8 +55,8 @@ You will notice the robot.begin_screen() is already written in the workspace as 
 From time to time, we'll enhance important words. Roll your mouse over them to see a definition.
 
 #### ~ tutorialhint 
-```python
-robot.begin_screen()
+```blocks
+robot.beginScreen()
 ```
 
 ```template
