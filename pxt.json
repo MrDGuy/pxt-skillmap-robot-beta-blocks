@@ -1,12 +1,12 @@
 {
     "name": "pxt-skillmap-robot-blocks",
-    "version": "0.0.1",
+    "version": "0.1.1",
     "description": "",
     "dependencies": {
         "device": "*",
         "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0",
         "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
-        "Robot Extension": "github:MrDGuy/robot-extension-beta#c991f11fcbdbaa745d134d1a053aa227eab67588"
+        "Robot Extension": "github:MrDGuy/robot-extension-beta#2e0bf1965f09d6a34dd4a81ab5013694fae62cb9"
     },
     "files": [
         "README.md",
@@ -28,7 +28,7 @@
     "testFiles": [
     ],
     "targetVersions": {
-        "target": "1.0.16",
+        "target": "1.12.51",
         "targetId": "arcade"
     },
     "supportedTargets": [
