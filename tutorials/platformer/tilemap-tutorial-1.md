@@ -12,7 +12,7 @@ This tutorial introduces the Tilemap code which is needed to begin your robot sc
 Now click the ``||tiles:tilemaps||`` category and drag in the ``||tiles:set current tilemap to map ||`` code to line 1.
 
 ```blocks
-tiles.setCurrentTilemap(tilemap` `)
+tiles.loadMap(tiles.createMap(tilemap``))
 ```
 
 ## Step Two @showhint @unplugged
