@@ -3,7 +3,7 @@
 ## Introduction @unplugged
 
 This tutorial teaches you how to save tilemaps under variable names to be used later.
-![Setting your two tilemaps to variables](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilesmaps-1-blocks.png "Variable Tilemaps" )
+![Setting your two tilemaps to variables](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta-blocks/main/docs/static/variables-tilesmaps-1-blocks.png "Variable Tilemaps" )
 
 ## Step One
 
@@ -33,7 +33,7 @@ tiles.createMap(tilemap`level2`)
 ## Step Four
 
 After that in the front of the line of code write tile_map2 =.
-![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-1-blocks.png "Customize Tilemap" )
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta-blocks/main/docs/static/variables-tilemaps-1-blocks.png "Customize Tilemap" )
 
 ```blocks
 let tileMap1 = tiles.createMap(tilemap`level1`)
@@ -44,7 +44,7 @@ let tileMap2 = tiles.createMap(tilemap`level2`)
 ## Step Five @unplugged
 
 Load the tilemap tile_map1.  Code: tiles.load_map(tile_map1)
-![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-5.gif "Customize Tilemap" )
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta-blocks/main/docs/static/variables-tilemaps-5.gif "Customize Tilemap" )
 
 ```blocks
 let tileMap1 = tiles.createMap(tilemap`level1`)
@@ -78,7 +78,7 @@ robot.collectCoin()
 ## Step Eight @unplugged
 
 Once you have reached the goal of the first tilemap, load the tilemap tile_map2.
-![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-3.gif "Customize Tilemap" )
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta-blocks/main/docs/static/variables-tilemaps-3.gif "Customize Tilemap" )
 
 ```blocks
 let tileMap1 = tiles.createMap(tilemap`level1`)
