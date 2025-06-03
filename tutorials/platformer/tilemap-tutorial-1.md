@@ -23,7 +23,7 @@ Click the map icon to the left of the 1 on the margin and then click My Assets a
 
 ---
 
-![Upload your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/tilemap-customize-4-blocks.gif.gif "Upload Tilemap" )
+![Upload your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/tilemap-customize-4-blocks.gif "Upload Tilemap" )
 hint~
 
 ---
