@@ -7,7 +7,7 @@
 This tutorial introduces the Tilemap code which is needed to begin your robot screen.
 ![Upload your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta-blocks/main/docs/static/tilemap-customize-1.gif "Upload Tilemap" )
 
-## Step One
+## step One
 
 Now click the ``||tiles:tilemaps||`` category and drag in the ``||tiles:set current tilemap to map ||`` code to line 1.
 
