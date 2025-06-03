@@ -9,25 +9,25 @@ This tutorial teaches you how to save tilemaps under variable names to be used l
 
 Use the ``||tiles:tilemap ||`` code to create a new tilemap. Click the map and then My Assets then select level1.
 
-```python
-tiles.create_map(tilemap("""level1"""))
+```blocks
+let tileMap1 = tiles.createMap(tilemap`level1`)
 ```
 
 ## Step Two
 
 After that in the front of the line of code write tile_map1 =.
 
-```python
-tile_map1 = tiles.create_map(tilemap("""level1"""))
+```blocks
+let tileMap1 = tiles.createMap(tilemap`level1`)
 ```
 
 ## Step Three
 
 Use the ``||tiles:tilemap ||`` code to create a new tilemap. Click the map and then My Assets then select level2.
 
-```python
-tile_map1 = tiles.create_map(tilemap("""level1"""))
-tiles.create_map(tilemap("""level2"""))
+```blocks
+let tileMap1 = tiles.createMap(tilemap`level1`)
+tiles.createMap(tilemap`level2`)
 ```
 
 ## Step Four
@@ -35,9 +35,9 @@ tiles.create_map(tilemap("""level2"""))
 After that in the front of the line of code write tile_map2 =.
 ![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-1-blocks.png "Customize Tilemap" )
 
-```python
-tile_map1 = tiles.create_map(tilemap("""level1"""))
-tile_map2 = tiles.create_map(tilemap("""level2"""))
+```blocks
+let tileMap1 = tiles.createMap(tilemap`level1`)
+let tileMap2 = tiles.createMap(tilemap`level2`)
 ```
 
 
@@ -46,10 +46,10 @@ tile_map2 = tiles.create_map(tilemap("""level2"""))
 Load the tilemap tile_map1.  Code: tiles.load_map(tile_map1)
 ![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-5.gif "Customize Tilemap" )
 
-```python
-tile_map1 = tiles.create_map(tilemap("""level1"""))
-tile_map2 = tiles.create_map(tilemap("""level2"""))
-tiles.load_map(tile_map1)
+```blocks
+let tileMap1 = tiles.createMap(tilemap`level1`)
+let tileMap2 = tiles.createMap(tilemap`level2`)
+tiles.loadMap(tileMap1)
 ```
 
 
@@ -57,22 +57,22 @@ tiles.load_map(tile_map1)
 
 Use the ``||robot:begin screen ||`` code to start your robot on the start tile and set up the tilemap.
 
-```python
-tile_map1 = tiles.create_map(tilemap("""level1"""))
-tile_map2 = tiles.create_map(tilemap("""level2"""))
-tiles.load_map(tile_map1)
-robot.begin_screen()
+```blocks
+let tileMap1 = tiles.createMap(tilemap`level1`)
+let tileMap2 = tiles.createMap(tilemap`level2`)
+tiles.loadMap(tileMap1)
+robot.beginScreen()
 ```
 
 ## Step Seven
 
 Use the ``||robot:move forward||`` code to move the robot. Change the direction the robot is facing with the ``||robot:turn right||`` and ``||robot:turn left||`` code.  Move the robot to the goal tile.
 
-```python
-robot.move_forward()
-robot.turn_right()
-robot.turn_left()
-robot.collect_coin()
+```blocks
+robot.moveForward()
+robot.turnRight()
+robot.turnLeft()
+robot.collectCoin()
 ```
 
 ## Step Eight @unplugged
@@ -80,13 +80,13 @@ robot.collect_coin()
 Once you have reached the goal of the first tilemap, load the tilemap tile_map2.
 ![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-3.gif "Customize Tilemap" )
 
-```python
-tile_map1 = tiles.create_map(tilemap("""level1"""))
-tile_map2 = tiles.create_map(tilemap("""level2"""))
-tiles.load_map(tile_map1)
-robot.begin_screen()
+```blocks
+let tileMap1 = tiles.createMap(tilemap`level1`)
+let tileMap2 = tiles.createMap(tilemap`level2`)
+tiles.load_map(tileMap1)
+robot.beginScreen()
 #code to reach the goal for tile_map1
-tiles.load_map(tile_map2)
+tiles.loadMap(tileMap2)
 ```
 
 
@@ -94,27 +94,28 @@ tiles.load_map(tile_map2)
 
 Use the ``||robot:begin screen ||`` code AGAIN after you load the tile_map2 to start your robot on the start tile and set up the tilemap on the new tilemap.
 
-```python
-tile_map1 = tiles.create_map(tilemap("""level1"""))
-tile_map2 = tiles.create_map(tilemap("""level2"""))
-tiles.load_map(tile_map1)
-robot.begin_screen()
+```blocks
+let tileMap1 = tiles.createMap(tilemap`level1`)
+let tileMap2 = tiles.createMap(tilemap`level2`)
+tiles.load_map(tileMap1)
+robot.beginScreen()
 #code to reach the goal for tile_map1
-tiles.load_map(tile_map2)
-robot.begin_screen()
+tiles.loadMap(tileMap2)
+robot.beginScreen()
 ```
 
 ## Step Ten
 
 Use the ``||robot:move forward||`` code to move the robot. Change the direction the robot is facing with the ``||robot:turn right||`` and ``||robot:turn left||`` code.  Move the robot to the goal tile of the second tilemap.
 
-```python
-tile_map1 = tiles.create_map(tilemap("""level1"""))
-tile_map2 = tiles.create_map(tilemap("""level2"""))
-tiles.load_map(tile_map1)
-robot.begin_screen()
+```blocks
+let tileMap1 = tiles.createMap(tilemap`level1`)
+let tileMap2 = tiles.createMap(tilemap`level2`)
+tiles.load_map(tileMap1)
+robot.beginScreen()
 #code to reach the goal for tile_map1
-tiles.load_map(tile_map2)
+tiles.loadMap(tileMap2)
+robot.beginScreen()
 #code to reach the goal for tile_map2
 ```
 
