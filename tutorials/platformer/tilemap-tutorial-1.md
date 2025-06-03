@@ -11,8 +11,8 @@ This tutorial introduces the Tilemap code which is needed to begin your robot sc
 
 Now click the ``||tiles:tilemaps||`` category and drag in the ``||tiles:set current tilemap to map ||`` code to line 1.
 
-```python
-tiles.load_map(tiles.create_map(tilemap(""" """)))
+```blocks
+tiles.setCurrentTilemap(tilemap` `)
 ```
 
 ## Step Two @showhint @unplugged
@@ -32,18 +32,18 @@ hint~
 
 Use the ``||robot:begin screen ||`` code to start your robot on the start tile and set up the tilemap.
 
-```python
-robot.begin_screen()
+```blocks
+robot.beginScreen()
 ```
 
 ## Step Four
 
 Use the ``||robot:move forward||`` code to move the robot. Change the direction the robot is facing with the ``||robot:turn right||`` and ``||robot:turn left||`` code.  Move the robot to the goal tile.
 
-```python
-robot.move_forward()
-robot.turn_right()
-robot.turn_left()
+```blocks
+robot.moveForward()
+robot.turnRight()
+robot.turnLeft()
 ```
 
 
