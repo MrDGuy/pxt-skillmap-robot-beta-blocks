@@ -5,7 +5,7 @@
 ## Introduction @unplugged
 
 This tutorial introduces the Tilemap code which is needed to begin your robot screen.
-![Upload your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta-blocks/main/docs/static/tilemap-customize-1.gif "Upload Tilemap" )
+![Upload your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta-blocks/main/docs/static/tilemap-customize-4-blocks.gif "Upload Tilemap" )
 
 ## step One
 
