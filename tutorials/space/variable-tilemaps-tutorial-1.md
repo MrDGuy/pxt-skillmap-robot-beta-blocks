@@ -3,7 +3,7 @@
 ## Introduction @unplugged
 
 This tutorial teaches you how to save tilemaps under variable names to be used later.
-![Setting your two tilemaps to variables](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-1-blocks.png "Variable Tilemaps" )
+![Setting your two tilemaps to variables](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilesmaps-1-blocks.png "Variable Tilemaps" )
 
 ## Step One
 
