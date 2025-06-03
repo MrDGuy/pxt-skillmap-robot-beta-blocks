@@ -33,7 +33,7 @@ tiles.createMap(tilemap`level2`)
 ## Step Four
 
 After that in the front of the line of code write tile_map2 =.
-![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta-blocks/main/docs/static/variables-tilemaps-1-blocks.png "Customize Tilemap" )
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta-blocks/main/docs/static/variables-tilesmaps-1-blocks.png "Customize Tilemap" )
 
 ```blocks
 let tileMap1 = tiles.createMap(tilemap`level1`)
