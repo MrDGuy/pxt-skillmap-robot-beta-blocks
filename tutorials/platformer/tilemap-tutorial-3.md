@@ -8,8 +8,8 @@ This tutorial teaches you to customize your tilemaps given already created tiles
 
 Use the ``||tiles:set current tilemap to map ||`` code to start your robot on the start tile and set up the tilemap. Here is a slideshow which shows how to make a custom tilemap: https://docs.google.com/presentation/d/1cawKIOhjpS6RkyLfUtz1jMWu12Km-bZNeiX4x2yisHQ/edit?usp=sharing
 
-```python
-tiles.load_map(tiles.create_map(tilemap(""" """)))
+```blocks
+tiles.setCurrentTilemap(tilemap` `)
 ```
 
 ## Step Two @showhint
@@ -57,19 +57,19 @@ hint~
 
 Use the ``||robot:begin screen ||`` code to start your robot on the start tile and set up the tilemap.
 
-```python
-robot.begin_screen()
+```blocks
+robot.beginScreen()
 ```
 
 ## Step Six
 
 Use the ``||robot:move forward||`` code to move the robot. Change the direction the robot is facing with the ``||robot:turn right||`` and ``||robot:turn left||`` code.  Move the robot to the goal tile.
 
-```python
-robot.move_forward()
-robot.turn_right()
-robot.turn_left()
-robot.collect_coin()
+```blocks
+robot.moveForward()
+robot.turnRight()
+robot.turnLeft()
+robot.collectCoin()
 ```
 ```assetjson
 {
