@@ -54,7 +54,7 @@ Put 4 coins on the tilemap located as you see in the image.
 ```
 
 ```customts
-    tiles.setCurrentTilemap(tilemap`level1`)
+    tiles.loadMap(tiles.createMap(tilemap`level1`))
     robot.beginScreen()
     game.onUpdate(function () {
         if (robot.goalReached()) {
